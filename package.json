@@ -1,0 +1,46 @@
+{
+  "name": "niteo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ashish",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "serve": "live-server public/",
+    "dev-server": "webpack-dev-server",
+    "server": "node server/server.js",
+    "start": "npm run dev-server |  npm server"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-cli": "6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "cheerio": "^1.0.0-rc.2",
+    "css-loader": "^0.28.9",
+    "express": "^4.16.2",
+    "jsdom": "^11.6.2",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^7.0.0",
+    "puppeteer": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-modal": "^3.1.12",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "request": "^2.83.0",
+    "sass-loader": "^6.0.6",
+    "sleep": "^5.1.1",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0",
+    "nodemon": "^1.15.0"
+  }
+}
